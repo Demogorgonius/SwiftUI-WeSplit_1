@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A57C8C7B2E206CD10035F959 /* DevRush_1_WeSplit_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C8C782E206CD10035F959 /* DevRush_1_WeSplit_1App.swift */; };
+		A57C8C7C2E206CD10035F959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C8C772E206CD10035F959 /* ContentView.swift */; };
+		A57C8C7D2E206CD10035F959 /* DevRush_1_WeSplit_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C8C782E206CD10035F959 /* DevRush_1_WeSplit_1App.swift */; };
+		A57C8C7E2E206CD10035F959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C8C772E206CD10035F959 /* ContentView.swift */; };
+		A57C8C812E206CD10035F959 /* DevRush_1_WeSplit_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C8C782E206CD10035F959 /* DevRush_1_WeSplit_1App.swift */; };
+		A57C8C822E206CD10035F959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C8C772E206CD10035F959 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A57C8C592E1ECC230035F959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +36,11 @@
 		A57C8C4B2E1ECC220035F959 /* DevRush_1_WeSplit_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevRush_1_WeSplit_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C8C582E1ECC230035F959 /* DevRush_1_WeSplit_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevRush_1_WeSplit_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C8C622E1ECC230035F959 /* DevRush_1_WeSplit_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevRush_1_WeSplit_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57C8C772E206CD10035F959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A57C8C782E206CD10035F959 /* DevRush_1_WeSplit_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevRush_1_WeSplit_1App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A57C8C4D2E1ECC220035F959 /* DevRush_1_WeSplit_1 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DevRush_1_WeSplit_1;
-			sourceTree = "<group>";
-		};
 		A57C8C5B2E1ECC230035F959 /* DevRush_1_WeSplit_1Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DevRush_1_WeSplit_1Tests;
@@ -43,6 +49,11 @@
 		A57C8C652E1ECC230035F959 /* DevRush_1_WeSplit_1UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DevRush_1_WeSplit_1UITests;
+			sourceTree = "<group>";
+		};
+		A57C8C832E206D2B0035F959 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +86,7 @@
 		A57C8C422E1ECC220035F959 = {
 			isa = PBXGroup;
 			children = (
-				A57C8C4D2E1ECC220035F959 /* DevRush_1_WeSplit_1 */,
+				A57C8C792E206CD10035F959 /* DevRush_1_WeSplit_1 */,
 				A57C8C5B2E1ECC230035F959 /* DevRush_1_WeSplit_1Tests */,
 				A57C8C652E1ECC230035F959 /* DevRush_1_WeSplit_1UITests */,
 				A57C8C4C2E1ECC220035F959 /* Products */,
@@ -90,6 +101,16 @@
 				A57C8C622E1ECC230035F959 /* DevRush_1_WeSplit_1UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A57C8C792E206CD10035F959 /* DevRush_1_WeSplit_1 */ = {
+			isa = PBXGroup;
+			children = (
+				A57C8C832E206D2B0035F959 /* Resources */,
+				A57C8C772E206CD10035F959 /* ContentView.swift */,
+				A57C8C782E206CD10035F959 /* DevRush_1_WeSplit_1App.swift */,
+			);
+			path = DevRush_1_WeSplit_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +129,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A57C8C4D2E1ECC220035F959 /* DevRush_1_WeSplit_1 */,
+				A57C8C832E206D2B0035F959 /* Resources */,
 			);
 			name = DevRush_1_WeSplit_1;
 			packageProductDependencies = (
@@ -132,6 +153,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A57C8C5B2E1ECC230035F959 /* DevRush_1_WeSplit_1Tests */,
+				A57C8C832E206D2B0035F959 /* Resources */,
 			);
 			name = DevRush_1_WeSplit_1Tests;
 			packageProductDependencies = (
@@ -155,6 +177,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A57C8C652E1ECC230035F959 /* DevRush_1_WeSplit_1UITests */,
+				A57C8C832E206D2B0035F959 /* Resources */,
 			);
 			name = DevRush_1_WeSplit_1UITests;
 			packageProductDependencies = (
@@ -170,6 +193,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
@@ -187,11 +213,12 @@
 				};
 			};
 			buildConfigurationList = A57C8C462E1ECC220035F959 /* Build configuration list for PBXProject "DevRush_1_WeSplit_1" */;
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				ru,
 				Base,
+				en,
 			);
 			mainGroup = A57C8C422E1ECC220035F959;
 			minimizedProjectReferenceProxies = 1;
@@ -236,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57C8C812E206CD10035F959 /* DevRush_1_WeSplit_1App.swift in Sources */,
+				A57C8C822E206CD10035F959 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57C8C7B2E206CD10035F959 /* DevRush_1_WeSplit_1App.swift in Sources */,
+				A57C8C7C2E206CD10035F959 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57C8C7D2E206CD10035F959 /* DevRush_1_WeSplit_1App.swift in Sources */,
+				A57C8C7E2E206CD10035F959 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +307,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -329,6 +363,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -338,6 +373,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -386,6 +422,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
