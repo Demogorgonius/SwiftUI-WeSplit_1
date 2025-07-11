@@ -29,10 +29,19 @@ struct ContentView: View {
         return amountPerPerson
     }
     
+    var amountOfTheCheck: Double {
+        
+        let tipSelection = Double(tipPercentage)
+        let tipValue = checkAmount / 100 * tipSelection
+        let grandTotal = checkAmount + tipValue
+        
+        return grandTotal
+    }
+    
     var body: some View {
         NavigationStack {
             Form{
-                Section{
+                Section(LocalizedStringKey("amountInput")) {
                     TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                         .keyboardType(.decimalPad)
                         .focused($amountIsFocused)
@@ -60,8 +69,12 @@ struct ContentView: View {
                     
                 }
                 
-                Section {
+                Section(LocalizedStringKey("amountPerPerson")) {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                }
+                
+                Section(LocalizedStringKey("amountOfTheCheck")) {
+                    Text(amountOfTheCheck, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                 }
             }
             .navigationTitle(LocalizedStringKey("mainTitle"))

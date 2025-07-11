@@ -15,6 +15,57 @@
     "Amount" : {
       "shouldTranslate" : false
     },
+    "amountInput" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "amountInput"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сумма счета и количество гостей"
+          }
+        }
+      }
+    },
+    "amountOfTheCheck" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amount of the check"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общая сумма чека"
+          }
+        }
+      }
+    },
+    "amountPerPerson" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Amount per person"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сумма на человека"
+          }
+        }
+      }
+    },
     "doneButton" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -31,18 +82,6 @@
           }
         }
       }
-    },
-    "How much tip do you want to leave?" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "How much tip do you want to leave?"
-          }
-        }
-      },
-      "shouldTranslate" : false
     },
     "mainTitle" : {
       "extractionState" : "manual",
